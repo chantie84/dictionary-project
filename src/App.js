@@ -1,12 +1,21 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 import logo from "./logo.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="rounded App-logo" alt="logo" />
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Chantal Crompvoets</small>
+        </footer>
+      </div>
     </div>
   );
 }
