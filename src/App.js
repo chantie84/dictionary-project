@@ -10,7 +10,7 @@ function App() {
           <img src={logo} className="rounded App-logo" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
           <small>Coded by Chantal Crompvoets</small>
